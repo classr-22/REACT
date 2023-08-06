@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {NetflicksRegisterComponent} from './components/NetflicksRegisterComponent.js';
+import NetflicksIndexComponent from './components/NetflicksIndexComponent';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
@@ -11,7 +12,7 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NetflicksRegisterComponent />
+    <NetflicksIndexComponent />
   </React.StrictMode>
 );
 
